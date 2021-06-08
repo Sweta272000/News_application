@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_bbcnews"
+            android:icon="@drawable/bbcnews"
+            android:title="BBC NEWS"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_fox"
+            android:icon="@drawable/pngegg"
+            android:title="FOX NEWS"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_cnn"
+            android:icon="@drawable/cnnlogo"
+            android:title="CNN"
+            android:menuCategory="secondary"/>
+    </group>
+    <item android:title="Upcoming"
+        android:menuCategory="secondary">
+        <menu>
+            <item
+                android:title="The Hindu"
+                android:menuCategory="secondary"
+                android:icon="@drawable/thehindu"/>
+        </menu>
+
+    </item>
+</menu>
